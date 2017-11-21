@@ -10,10 +10,12 @@ public class HelloController {
 	// RequestMapping is what method the url ties to, eg http://localhost:8080/something/greeting
 	@RequestMapping(value = "/greeting")
 	public String sayHello(Model model) {
-
+		
+		//model is essentially a hashmap, greeting is a key hello world is a value
 		model.addAttribute("greeting", "Hello World");
 
-		return "ello";
+		//needs to be hello to map to hello.jsp
+		return "hello";
 	}
 
 }

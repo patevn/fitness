@@ -4,6 +4,14 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+	
+
+/**
+ * Controller, handles requests, do NOT put business logic in here
+ * can handle exceptions here thou
+ * @author Peter
+ *
+ */
 @Controller
 public class HelloController {
 
